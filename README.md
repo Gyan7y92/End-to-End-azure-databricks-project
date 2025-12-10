@@ -22,9 +22,10 @@ Azure SQL DB
 Transaction Table
 Product Table
 Store Table
-# REST API (JSON)
+
+REST API (JSON)
 Customer Data
-2. Ingestion Layer – Azure Data Factory (ADF)
+3. Ingestion Layer – Azure Data Factory (ADF)
 ADF is used to orchestrate ingestion using:
 Copy Activity
 REST API Linked Service
@@ -32,7 +33,7 @@ Azure SQL linked services
 Pipelines scheduled via triggers
 ADF loads raw data into ADLS Bronze Layer.
 
-3. Storage Layer – Azure Data Lake Storage (ADLS Gen2)
+4. Storage Layer – Azure Data Lake Storage (ADLS Gen2)
 
 Data is stored in hierarchical structure:
 
