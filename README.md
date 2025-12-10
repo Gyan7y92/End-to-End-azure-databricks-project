@@ -131,6 +131,7 @@ A fully automated, scalable, production-ready retail data pipeline enabling fast
 # Author
 
 **Gyan Singh**
+
 Azure Data Engineer | Data Engineering | ADF | Databricks | PySpark | Azure SQL
 
 
